@@ -58,7 +58,6 @@ pip install -r requirements.txt
 
 Para iniciar a API em sua máquina local habilitando o recarregamento em tempo real (hot-reload) a cada modificação nos arquivos de código, utilize o Uvicorn:
 
-bash
 uvicorn app.main:app --reload
 
 • Endereço Local da API: http://127.0.0.1:8000
@@ -76,7 +75,7 @@ Nota: Por ser um serviço free do render e ter recursos muito limitados o primei
 Ao realizar uma requisição para o endpoint analítico da API (POST /detectar-estatisticas), enviando um arquivo de imagem através de formulário multipart, a API processa as matrizes e devolve uma estrutura estrita e tipada.
 Exemplo de Payload de Retorno (JSON):
 
-json
+```json
 {
   "total_detectado": 3,
   "resumo_contagem": {
@@ -124,3 +123,4 @@ json
     }
   ]
 }
+```
