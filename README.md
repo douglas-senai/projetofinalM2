@@ -50,7 +50,7 @@ git clone https://github.com/douglas-senai/projetofinalM2.git
 
 Certifique-se de possuir o Python instalado em seu ambiente (versão 3.8 ou superior). Acesse a pasta raiz de execução da API (detector_yolo_api) e instale as dependências listadas no gerenciador de pacotes:
 
-Instalação dos pacotes nucleares (FastAPI, OpenCV-Headless, NumPy e Ultralytics)
+Instalação dos pacotes nucleares (FastAPI, OpenCV-Headless, NumPy e Ultralytics) - certifique-se de estar na pasta detector_yolo_api
 
 pip install -r requirements.txt
 
